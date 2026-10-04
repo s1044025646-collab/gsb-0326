@@ -1,0 +1,10 @@
+{
+  "equations": [
+    { "id": "e1", "lhs": { "type": "var", "name": "X" }, "rhs": { "type": "var", "name": "Y" } },
+    {
+      "id": "e2",
+      "lhs": { "type": "var", "name": "Y" },
+      "rhs": { "type": "sym", "name": "f", "args": [{ "type": "var", "name": "X" }] }
+    }
+  ]
+}

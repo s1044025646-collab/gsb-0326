@@ -1,0 +1,17 @@
+{
+  "name": "robinson-unify-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Robinson 一阶有限项合一与变量替换解释后端（API + CLI）",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test --test-reporter=spec \"dist/test/*.test.js\"",
+    "start": "tsc -p tsconfig.json && node dist/src/cli.js serve",
+    "demo": "tsc -p tsconfig.json && node dist/src/cli.js demo"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0 || ^26.0.0",
+    "typescript": "^5.9.0 || ^7.0.0"
+  }
+}

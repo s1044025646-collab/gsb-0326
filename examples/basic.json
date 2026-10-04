@@ -1,0 +1,23 @@
+{
+  "equations": [
+    {
+      "id": "e1",
+      "lhs": {
+        "type": "sym",
+        "name": "f",
+        "args": [
+          { "type": "var", "name": "X" },
+          { "type": "sym", "name": "a", "args": [] }
+        ]
+      },
+      "rhs": {
+        "type": "sym",
+        "name": "f",
+        "args": [
+          { "type": "sym", "name": "b", "args": [] },
+          { "type": "var", "name": "Y" }
+        ]
+      }
+    }
+  ]
+}

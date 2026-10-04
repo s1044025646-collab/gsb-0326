@@ -1,0 +1,5 @@
+{
+  "type": "sym",
+  "name": "g",
+  "args": [{ "type": "var", "name": "X" }]
+}
